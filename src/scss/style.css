@@ -1,0 +1,8 @@
+.btn-success {
+  background-color: #789940;
+  border-color: #789940;
+}
+.btn-success:hover:not(:disabled):not(.disabled), .btn-success:focus:not(:disabled):not(.disabled), .btn-success.focus:not(:disabled):not(.disabled), .btn-success:active:not(:disabled):not(.disabled), .btn-success.active:not(:disabled):not(.disabled) {
+  background-color: #678337;
+  border-color: #678337;
+}
