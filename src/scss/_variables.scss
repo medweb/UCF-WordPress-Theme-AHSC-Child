@@ -1,0 +1,22 @@
+// New Colors For UCF Health
+
+$ucfh-green: #789940;
+$ucfh-light-green: #aec2aa;
+$ucfh-bright-blue: #27b1fb;
+$ucfh-light-grey: #f0f0f0;
+
+.btn-success {
+  background-color: $ucfh-green;
+  border-color: $ucfh-green;
+
+  &:hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    &:not(:disabled):not(.disabled) {
+      background-color: darken($ucfh-green, 6%);
+      border-color: darken($ucfh-green, 6%);
+    }
+  }
+}
